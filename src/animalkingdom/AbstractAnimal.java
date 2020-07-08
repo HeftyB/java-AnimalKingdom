@@ -11,8 +11,8 @@ abstract class AbstractAnimal
 
 	public AbstractAnimal()
 	{
-//		maxId++;
-//		id = maxId;
+		maxId++;
+		id = maxId;
 		stomach = 0;
 	}
 

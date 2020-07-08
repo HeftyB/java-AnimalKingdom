@@ -6,8 +6,8 @@ public class Mammals extends AbstractAnimal
 	{
 		this.name = name;
 		this.yearDiscovered = yearDiscovered;
-		maxId++;
-		id = maxId;
+		//maxId++; // Scope test, it is available
+		//id = maxId;
 	}
 	
 	@Override
